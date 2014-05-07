@@ -1,0 +1,120 @@
+doctype 5
+html
+	head
+		include ../includes/header
+	body.container#body
+		div.row
+			div.container#top-nav-bar-container
+				div.row
+					div.span12.top-nav-bar
+						div.account-link.top-nav-bar-links(sub-class="account")
+							img.icon(src="./images/account.png")
+							span= t('account')
+						div.wish-list-link.top-nav-bar-links(sub-class="wish list")
+							img.icon(src="./images/wish.png")
+							span= t('wishList')
+								span (0)
+						div.compare-list.top-nav-bar-links(sub-class="compare list")
+							img.icon(src="./images/compare.png")
+							span= t('compare')
+						div.shopping-cart-list.top-nav-bar-links(sub-class="shopping-submenu")
+							img.icon(src="./images/shopping_cart.png") 
+							span= t('shoppingCart')  
+								b= i18n.t("insert", {count: "10", price: "$250.00"})
+						div.lenguagrge-sittings.pull-right
+							ul
+								li.lng(lng-data="?setLng=en-US") en
+								li.lng(lng-data="?setLng=ru-RU") ru
+					div.top-nav-submenu
+						div.shopping-submenu
+							div.close-submenu
+								a
+							div.shadow
+								img(src="./images/shadow_line_left.png")
+							div.content-submenu
+								div
+									a
+										img(src="./images/img_products/product4.png")
+									div.small-desc
+										a
+											span Name dsfds sdsfdff sdfsdfs
+										b 250
+											sup
+												small 00
+									input(type="checkbox")
+								div
+									a
+										img(src="./images/img_products/product3.png")
+									div.small-desc
+										a
+											span Name dsfds sdsfdff sdfsdfs
+										b 250
+											sup
+												small 00
+									input(type="checkbox")
+								div
+									a
+										img(src="./images/img_products/product2.png")
+									div.small-desc
+										a
+											span Name dsfds sdsfdff sdfsdfs
+										b 250
+											sup
+												small 00
+									input(type="checkbox")
+								div
+									a
+										img(src="./images/img_products/product1.png")
+									div.small-desc
+										a
+											span Name dsfds sdsfdff sdfsdfs
+										b 250
+											sup
+												small 00
+									input(type="checkbox")
+								div
+									a
+										img(src="./images/img_products/product1.png")
+									div.small-desc
+										a
+											span Name dsfds sdsfdff sdfsdfs
+										b 250
+											sup
+												small 00
+									input(type="checkbox")
+							div.shadow
+								img(src="./images/shadow_line.png")
+							div.small-btn.pull-right
+								a.quick-shop-submenu(title="quick shop")
+								a.delete-submenu(title="delete from list")
+							div.more-details.pull-right
+								a &#8250
+							
+						
+			div.container
+				div.row
+					a(href="/")
+						div.logo.span3
+							img.logo-img(src="./images/logo_kube.png")
+							div.logo-name
+								span cube 
+									b zone
+								i= t("phrase")
+					form.form-search.searsh.pull-right
+						input.input-medium( data-i18n="[placeholder]ns.common:search;" type="text" )
+						img(src="./images/loop.png")
+			div.container#menu-bar
+				div.row
+					div.menu-bar.span12
+						a(href="#photo")
+							div.menu-point= t('photo')
+						a(href="#")
+							div.menu-point= t('computer')
+			block content
+
+			include ../includes/category
+			include ../includes/product
+			include ../includes/footer
+
+			script(type="text/template" id="languages-template")
+				li(lng-data="?setLng=<%= iso_rigion %>") <%= iso %>

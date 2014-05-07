@@ -1,0 +1,19 @@
+{
+    "search": "search",
+    "prev": "Prev",
+    "next": "Next",
+    "quickShop": "Quick Shop",
+    "addToCart": "Add to Cart",
+    "addToWish": "Add to Wish List",
+    "addToCompare": "Add to Compare",
+    "btn": {
+        "prev": "ns.common:btn.prev",
+        "next": "ns.common:btn.next"
+    },
+    "product": {
+        "addToCart": "ns.common:product.addToCart",
+        "quickShop": "ns.common:product.quickShop",
+        "addToWish": "ns.common:product.addToWish",
+        "addToCompare": "ns.common:product.addToCompare"
+    }
+}

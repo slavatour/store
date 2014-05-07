@@ -1,0 +1,561 @@
+extends layout/page
+
+block content
+	div.index-container.routesDiv.visible
+		div.container#slider
+			div.row
+				div.slider-conteiner.span12
+					div.noSlider
+						img(src="./images/no_slider.png")
+					div.slider
+						div.img1.slid-img(index="0")
+							img(src="./images/img_slider/slide1.png")
+						div.img2.slid-img(index="1")
+							img(src="./images/img_slider/slide2.png")
+						div.img3.slid-img(index="2")
+							img(src="./images/img_slider/slide3.png")
+						div.img4.slid-img(index="3")
+							img(src="./images/img_slider/slide4.png")
+						div.img5.slid-img(index="4")
+							img(src="./images/img_slider/slide5.png")
+						div.img6.slid-img(index="5")
+							img(src="./images/img_slider/slide6.png")
+						div.slider-description
+							span New iPad Air
+							i best assistant in your business
+							h3 $100
+								sup 00
+							button.slider-btn 
+								a(href="#") more...
+							div.arrow-left
+								img(src="./images/arrow_left.png")
+							div.arrow-right
+								img(src="./images/arrow_right.png")
+		div.container#offers-index
+			div.row
+				div.offer-conteiner
+					div.featured-conteiner
+						div.head 
+							span= t("featured") 
+							a.prev-btn(data-i18n="[title]ns.common:prev;")
+							a.next-btn(data-i18n="[title]ns.common:next;")
+						ul.body-featured.body-products.container
+							div.row
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product1.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product2.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product3.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product4.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+					div.latest-conteiner
+						div.head 
+							span= t("latest") 
+							a.prev-btn(data-i18n="[title]ns.common:btn.prev;")
+							a.next-btn(data-i18n="[title]ns.common:btn.next;")
+						ul.body-latest.body-products.container
+							div.row
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product1.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product2.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product3.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product4.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+					div.specials-conteiner
+						div.head 
+							span= t("specials")
+							a.prev-btn(data-i18n="[title]ns.common:btn.prev;")
+							a.next-btn(data-i18n="[title]ns.common:btn.next;")
+						ul.body-specials.body-products.container
+							div.row
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product1.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product2.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product3.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product4.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+					div.bestsellers-conteiner
+						div.head 
+							span= t("bestsellers") 
+							a.prev-btn(data-i18n="[title]ns.common:btn.prev;")
+							a.next-btn(data-i18n="[title]ns.common:btn.next;")
+						ul.body-bestsellers.body-products.container
+							div.row
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product1.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product2.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product3.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product4.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+								li.product-box-dotted.span3
+									a(href="#")
+										img(src="./images/img_products/product6.png")
+									span.name-product 
+										a(href="#") iPad Air new
+									span.price-product $250
+										sup
+											small 00
+									a.quick-shop( data-i18n="[title]ns.common:product.quickShop;" href)
+									a.add-to-cart( data-i18n="[title]ns.common:product.addToCart;" href)
+									a.add-to-wish( data-i18n="[title]ns.common:product.addToWish;" href)
+									a.add-to-compare( data-i18n="[title]ns.common:product.addToCompare;" href)
+					div.container#info
+						div.row
+							div.info
+								div.container.maxWidth
+									div.row
+										a(href="#").span4.adv-1
+											div.advertisement
+												img(src="./images/free_shipping.png")
+												span On orders over $100.00, until 31.12.2013
+										a(href="#").span4.adv-2.offset1
+											div.advertisement
+												img(src="./images/gift_certificate.png")
+												span On orders over $100.00, until 31.12.2013
+										a(href="#").span4.adv-3.offset1
+											div.advertisement
+												img(src="./images/call_us.png")
+												span On orders over $100.00, until 31.12.2013
