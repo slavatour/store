@@ -11,8 +11,8 @@
         "next": "ns.common:btn.next"
     },
     "product": {
-        "addToCart": "ns.common:product.addToCart",
         "quickShop": "ns.common:product.quickShop",
+        "addToCart": "ns.common:product.addToCart",
         "addToWish": "ns.common:product.addToWish",
         "addToCompare": "ns.common:product.addToCompare"
     }
